@@ -1,0 +1,10 @@
+//Delete-Element-from-Array
+let data =[3,45,67,23,56,88,12,34];
+ let position=3;
+ for(let i=position;i<data.length-1;i++){
+     data[i]=data[i+1];
+ }
+ data.length=data.length-1;
+ console.log(data);
+OutPut is:
+[3, 45, 67, 56, 88, 12, 34]
